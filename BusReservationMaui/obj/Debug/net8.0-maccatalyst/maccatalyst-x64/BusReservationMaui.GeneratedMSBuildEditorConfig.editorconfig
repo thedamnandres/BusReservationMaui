@@ -1,0 +1,71 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BusReservationMaui
+build_property.ProjectDir = /Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusReservationMaui.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusReservationMaui.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusReservationMaui.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusReservationMaui.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/Views/BoletosView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusReservationMaui.Views.BoletosView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/BoletosView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/BoletosView.xaml
+
+[/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/Views/HomeView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusReservationMaui.Views.HomeView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/HomeView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/HomeView.xaml
+
+[/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/Views/ReservasView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusReservationMaui.Views.ReservasView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/ReservasView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/ReservasView.xaml
+
+[/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/Views/RutasView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusReservationMaui.Views.RutasView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/RutasView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/RutasView.xaml
+
+[/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/Views/UserView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusReservationMaui.Views.UserView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/UserView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/UserView.xaml

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="BusReservationMaui.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:BusReservationMaui.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Title="BusReservationMaui">
+
+    <TabBar>
+        <Tab Title="Home">
+            <ShellContent
+                Title="Home"
+                ContentTemplate="{DataTemplate views:HomeView}"
+                Route="Principal"/>
+        </Tab>
+        <Tab Title="Rutas">
+            <ShellContent
+                Title="Rutas"
+                ContentTemplate="{DataTemplate views:RutasView}"
+                Route="Rutas"/>
+        </Tab>
+        <Tab Title="Boletos">
+            <ShellContent
+                Title="Boletos"
+                ContentTemplate="{DataTemplate views:BoletosView}"
+                Route="Boletos"/>
+        </Tab>
+        <Tab Title="Reservas">
+            <ShellContent
+                Title="Reservas"
+                ContentTemplate="{DataTemplate views:RutasView}"
+                Route="Reservas"/>
+        </Tab>
+        <Tab Title="Usuario">
+            <ShellContent
+                Title="Usuario"
+                ContentTemplate="{DataTemplate views:UserView}"
+                Route="Usuario"/>
+        </Tab>
+    </TabBar>
+
+</Shell>
