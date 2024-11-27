@@ -141,6 +141,7 @@
     <Style TargetType="TabBar">
         <Setter Property="Shell.TabBarBackgroundColor" Value="Black" />
         <Setter Property="Shell.TabBarTitleColor" Value="Cyan" />
+        <Setter Property="Shell.TabBarForegroundColor" Value="Cyan" />
         <Setter Property="Shell.TabBarUnselectedColor" Value="Gray" />
     </Style>
     
