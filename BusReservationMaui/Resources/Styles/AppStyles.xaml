@@ -12,7 +12,7 @@
     </Style>
 
     <Style Class="TopRectangle" TargetType="RoundRectangle">
-        <Setter Property="Margin" Value="-5" />
+        <Setter Property="Margin" Value="-5,-5,-5,40" />
         <Setter Property="CornerRadius" Value="0,0,25,25" />
         <Setter Property="Fill" Value="{StaticResource MainColor}" />
     </Style>
@@ -149,5 +149,18 @@
         <Setter Property="Shell.TitleColor" Value="Cyan" />
     </Style>
 
+    <Style x:Key="RutaGridStyle" TargetType="Grid">
+        <Setter Property="ColumnDefinitions">
+            <Setter.Value>
+                <ColumnDefinitionCollection>
+                    <ColumnDefinition Width="0.2*" />
+                    <ColumnDefinition Width="0.8*" />
+                </ColumnDefinitionCollection>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Padding" Value="6" />
+        <Setter Property="Margin" Value="10,-15,10,0" />
+        <Setter Property="BackgroundColor" Value="White" />
+    </Style>
 
 </ResourceDictionary>

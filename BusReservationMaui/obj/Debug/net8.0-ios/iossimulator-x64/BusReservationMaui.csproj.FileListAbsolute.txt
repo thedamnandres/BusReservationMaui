@@ -313,3 +313,6 @@
 /Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/obj/Debug/net8.0-ios/iossimulator-x64/ref/BusReservationMaui.dll
 /Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/obj/Debug/net8.0-ios/iossimulator-x64/resizetizer/f/LibreFranklin-Regular.ttf
 /Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/obj/Debug/net8.0-ios/iossimulator-x64/resizetizer/f/Roboto-Black.ttf
+/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/obj/Debug/net8.0-ios/iossimulator-x64/BusReservationMaui.sourcelink.json
+/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/obj/Debug/net8.0-ios/iossimulator-x64/resizetizer/r/Resources/bus2.jpg
+/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/obj/Debug/net8.0-ios/iossimulator-x64/resizetizer/r/Resources/bus1.jpeg

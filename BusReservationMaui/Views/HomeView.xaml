@@ -6,22 +6,35 @@
     
     <ContentPage.Content>
         <Grid RowDefinitions=".15*, .15*, .15*, .55*">
-            
+            <!-- Header y Rectangulo Superior -->
             <RoundRectangle Grid.RowSpan="2" StyleClass="TopRectangle" />
             <VerticalStackLayout StyleClass="Header">
             </VerticalStackLayout>
+            
             <Grid 
                 Grid.Row="1"
                 Grid.RowSpan="2"
                 StyleClass="BalanceGrid">
-              
-                <RoundRectangle StyleClass="BalanceRectangle" Margin="0,-80,0,0"/>
-                <Grid ColumnDefinitions="*,*"
-                      RowDefinitions=".333*, .333*, .333*"
-                      StyleClass="Padding25"></Grid>
-                <VerticalStackLayout>
-                    <Label Text=""></Label>
-                </VerticalStackLayout>
+                
+                <!-- Carrusel -->
+                <CarouselView StyleClass="BalanceRectangle" Margin="0,-80,0,80"
+                              IndicatorView="indicator"
+                              ItemsSource="{Binding Images}">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame CornerRadius="10" Padding="0">
+                                <Image Source="{Binding .}" Aspect="AspectFill" />
+                            </Frame>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+
+                <!-- Indicator para Carrusel -->
+                <IndicatorView x:Name="indicator" 
+                               Grid.Row="2"
+                               Margin="0,35,0,0"
+                               HorizontalOptions="Center" />
+                
             </Grid>
         </Grid>
     </ContentPage.Content>
