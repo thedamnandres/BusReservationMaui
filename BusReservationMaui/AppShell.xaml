@@ -30,7 +30,7 @@
         <Tab Title="Reservas" Icon="reservas.png"  >
             <ShellContent
                 Title="Reservas"
-                ContentTemplate="{DataTemplate views:RutasView}"
+                ContentTemplate="{DataTemplate views:ReservasView}"
                 Route="Reservas"/>
         </Tab>
         <Tab Title="Usuarios" Icon="usuario.png"  >

@@ -1,9 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BusReservationMaui.Views.ReservasView">
-    <ContentPage.Content>
-        
-    </ContentPage.Content>
+             x:Class="BusReservationMaui.Views.ReservasView"
+             Title="Reservas">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <!-- Título de la página -->
+            <Label Text="Lista de Reservas"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <!-- Lista de Reservas -->
+            <CollectionView ItemsSource="{Binding Reservas}"
+                            VerticalOptions="FillAndExpand"
+                            SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="Gray" CornerRadius="10" Padding="10" Margin="5" BackgroundColor="White">
+                            <VerticalStackLayout Spacing="5">
+                                <Label Text="Reserva ID:"
+                                       FontAttributes="Bold"
+                                       TextColor="Black" />
+                                <Label Text="{Binding ReservaId}" TextColor="Gray" />
+
+                                <Label Text="Cliente ID:"
+                                       FontAttributes="Bold"
+                                       TextColor="Black" />
+                                <Label Text="{Binding ClienteId}" TextColor="Gray" />
+
+                                <Label Text="Asiento:"
+                                       FontAttributes="Bold"
+                                       TextColor="Black" />
+                                <Label Text="{Binding Asiento}" TextColor="Gray" />
+
+                                <Label Text="Estado de Reserva:"
+                                       FontAttributes="Bold"
+                                       TextColor="Black" />
+                                <Label Text="{Binding EstadoReserva, Converter={StaticResource BoolToTextConverter}}" 
+                                       TextColor="Gray" />
+
+                                <Label Text="Precio:"
+                                       FontAttributes="Bold"
+                                       TextColor="Black" />
+                                <Label Text="{Binding Precio, StringFormat='${0:F2}'}" TextColor="Gray" />
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- Botón para agregar una nueva reserva -->
+            <Button Text="Agregar Nueva Reserva"
+                    Command="{Binding AgregarReservaCommand}"
+                    BackgroundColor="#6200EE"
+                    TextColor="White"
+                    CornerRadius="10"
+                    HorizontalOptions="FillAndExpand" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
 </ContentPage>
