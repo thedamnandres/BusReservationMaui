@@ -8,31 +8,31 @@
     Title="BusReservationMaui">
 
     <TabBar>
-        <Tab Title="Home">
+        <Tab Title="Home" Icon="casa.png"  >
             <ShellContent
                 Title="Home"
                 ContentTemplate="{DataTemplate views:HomeView}"
                 Route="Principal"/>
         </Tab>
-        <Tab Title="Rutas">
+        <Tab Title="Rutas" Icon="rutas.png"  >
             <ShellContent
                 Title="Rutas"
                 ContentTemplate="{DataTemplate views:RutasView}"
                 Route="Rutas"/>
         </Tab>
-        <Tab Title="Boletos">
+        <Tab Title="Boletos" Icon="boletos.png"  >
             <ShellContent
                 Title="Boletos"
                 ContentTemplate="{DataTemplate views:BoletosView}"
                 Route="Boletos"/>
         </Tab>
-        <Tab Title="Reservas">
+        <Tab Title="Reservas" Icon="reservas.png"  >
             <ShellContent
                 Title="Reservas"
-                ContentTemplate="{DataTemplate views:RutasView}"
+                ContentTemplate="{DataTemplate views:ReservasView}"
                 Route="Reservas"/>
         </Tab>
-        <Tab Title="Usuario">
+        <Tab Title="Usuario" Icon="usuario.png"  >
             <ShellContent
                 Title="Usuario"
                 ContentTemplate="{DataTemplate views:UserView}"
