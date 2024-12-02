@@ -1,9 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BusReservationMaui.Views.BoletosView">
-    <ContentPage.Content>
-        
-    </ContentPage.Content>
+             xmlns:local="clr-namespace:BusReservationMaui.ViewModels"
+             x:Class="BusReservationMaui.Views.BoletosView"
+             BackgroundColor="White">
+
+    <!-- Establece el BindingContext a BoletosViewModel -->
+    <ContentPage.BindingContext>
+        <local:BoletosViewModel />
+    </ContentPage.BindingContext>
+
+    <StackLayout Padding="10" Spacing="15">
+        <!-- Titulo -->
+        <Label Text="Boletos Comprados"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+        <!-- CollectionView con scroll, para mostrar la lista de boletos -->
+        <CollectionView ItemsSource="{Binding Boletos}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BorderColor="#cccccc"
+                           BackgroundColor="White"
+                           CornerRadius="10"
+                           Padding="10"
+                           Margin="5"
+                           HasShadow="True">
+                        <StackLayout Spacing="10">
+                            <!-- Mostrar información del boleto -->
+                            <Label Text="{Binding PasajeroNombre}"
+                                   FontSize="18"
+                                   FontAttributes="Bold"
+                                   TextColor="Black" />
+
+                            <Label Text="{Binding FechaCompra, StringFormat='Fecha de compra: {0:dd/MM/yyyy}'}"
+                                   FontSize="14"
+                                   TextColor="Gray" />
+
+                            <Label Text="{Binding FechaViaje, StringFormat='Fecha de viaje: {0:dd/MM/yyyy}'}"
+                                   FontSize="14"
+                                   TextColor="Gray" />
+
+                            <Label Text="{Binding Asiento, StringFormat='Asiento: {0}'}"
+                                   FontSize="16"
+                                   TextColor="#4CAF50"
+                                   FontAttributes="Bold" />
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+
 </ContentPage>
