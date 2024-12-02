@@ -9,6 +9,7 @@
 
     <TabBar>
         <Tab Title="Home" Icon="casa.png"  >
+            
             <ShellContent
                 Title="Home"
                 ContentTemplate="{DataTemplate views:HomeView}"
@@ -29,10 +30,10 @@
         <Tab Title="Reservas" Icon="reservas.png"  >
             <ShellContent
                 Title="Reservas"
-                ContentTemplate="{DataTemplate views:ReservasView}"
+                ContentTemplate="{DataTemplate views:RutasView}"
                 Route="Reservas"/>
         </Tab>
-        <Tab Title="Usuario" Icon="usuario.png"  >
+        <Tab Title="Usuarios" Icon="usuario.png"  >
             <ShellContent
                 Title="Usuario"
                 ContentTemplate="{DataTemplate views:UserView}"

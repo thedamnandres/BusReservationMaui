@@ -12,66 +12,68 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BusReservationMaui
-build_property.ProjectDir = /Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/
+build_property.ProjectDir = C:\Users\paull\Source\Repos\BusReservationMaui\BusReservationMaui\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/App.xaml]
+[C:/Users/paull/Source/Repos/BusReservationMaui/BusReservationMaui/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BusReservationMaui.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/AppShell.xaml]
+[C:/Users/paull/Source/Repos/BusReservationMaui/BusReservationMaui/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BusReservationMaui.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/Resources/Styles/AppStyles.xaml]
+[C:/Users/paull/Source/Repos/BusReservationMaui/BusReservationMaui/Resources/Styles/AppStyles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BusReservationMaui.Resources.Styles.AppStyles.xaml
-build_metadata.AdditionalFiles.TargetPath = Resources/Styles/AppStyles.xaml
-build_metadata.AdditionalFiles.RelativePath = Resources/Styles/AppStyles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\AppStyles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\AppStyles.xaml
 
-[/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/Resources/Styles/Colors.xaml]
+[C:/Users/paull/Source/Repos/BusReservationMaui/BusReservationMaui/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BusReservationMaui.Resources.Styles.Colors.xaml
-build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
-build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/Resources/Styles/Styles.xaml]
+[C:/Users/paull/Source/Repos/BusReservationMaui/BusReservationMaui/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BusReservationMaui.Resources.Styles.Styles.xaml
-build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
-build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/Views/BoletosView.xaml]
+[C:/Users/paull/Source/Repos/BusReservationMaui/BusReservationMaui/Views/BoletosView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BusReservationMaui.Views.BoletosView.xaml
-build_metadata.AdditionalFiles.TargetPath = Views/BoletosView.xaml
-build_metadata.AdditionalFiles.RelativePath = Views/BoletosView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BoletosView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BoletosView.xaml
 
-[/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/Views/HomeView.xaml]
+[C:/Users/paull/Source/Repos/BusReservationMaui/BusReservationMaui/Views/HomeView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BusReservationMaui.Views.HomeView.xaml
-build_metadata.AdditionalFiles.TargetPath = Views/HomeView.xaml
-build_metadata.AdditionalFiles.RelativePath = Views/HomeView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HomeView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HomeView.xaml
 
-[/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/Views/ReservasView.xaml]
+[C:/Users/paull/Source/Repos/BusReservationMaui/BusReservationMaui/Views/ReservasView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BusReservationMaui.Views.ReservasView.xaml
-build_metadata.AdditionalFiles.TargetPath = Views/ReservasView.xaml
-build_metadata.AdditionalFiles.RelativePath = Views/ReservasView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ReservasView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ReservasView.xaml
 
-[/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/Views/RutasView.xaml]
+[C:/Users/paull/Source/Repos/BusReservationMaui/BusReservationMaui/Views/RutasView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BusReservationMaui.Views.RutasView.xaml
-build_metadata.AdditionalFiles.TargetPath = Views/RutasView.xaml
-build_metadata.AdditionalFiles.RelativePath = Views/RutasView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RutasView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RutasView.xaml
 
-[/Users/thedamnandres/RiderProjects/BusReservationMaui/BusReservationMaui/Views/UserView.xaml]
+[C:/Users/paull/Source/Repos/BusReservationMaui/BusReservationMaui/Views/UserView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BusReservationMaui.Views.UserView.xaml
-build_metadata.AdditionalFiles.TargetPath = Views/UserView.xaml
-build_metadata.AdditionalFiles.RelativePath = Views/UserView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UserView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UserView.xaml
