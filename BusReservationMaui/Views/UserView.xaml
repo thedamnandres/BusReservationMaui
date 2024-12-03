@@ -1,13 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?>
-
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BusReservationMaui.Views.UserView">
-    <ContentPage.Content>
-        <Grid RowDefinitions=".15*, .15*, .15*, .55*">
-            
-            <RoundRectangle Grid.RowSpan="2" StyleClass="TopRectangle" />
-            
-        </Grid>
-    </ContentPage.Content>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <!-- Imagen de Perfil -->
+            <Grid HorizontalOptions="Center">
+                <Image Source="https://definicion.de/wp-content/uploads/2019/07/perfil-de-usuario.png" 
+                       HeightRequest="100" 
+                       WidthRequest="100" 
+                       Aspect="AspectFill" 
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Center"
+                       Clip="Ellipse" />
+            </Grid>
+
+            <!-- Nombre y Rol -->
+            <VerticalStackLayout HorizontalOptions="Center">
+                <Label Text="{Binding Nombre}"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="Black" />
+                <Label Text="{Binding Apellido}"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="Black" />
+                <Label Text="Cargo"
+                       FontSize="14"
+                       TextColor="Gray" />
+            </VerticalStackLayout>
+
+            <!-- Detalles del Usuario -->
+            <VerticalStackLayout Spacing="10" BackgroundColor="White" Padding="15">
+                <HorizontalStackLayout>
+                    <Label Text="Email"
+                           FontAttributes="Bold"
+                           TextColor="Black" />
+                    <Label Text="{Binding Email}"
+                            HorizontalOptions="EndAndExpand"
+                            TextColor="Gray" />
+                </HorizontalStackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="#E0E0E0" />
+                <HorizontalStackLayout>
+                    <Label Text="Numero de Telefono "
+                           FontAttributes="Bold"
+                           TextColor="Black" />
+                    <Label Text="{Binding Telefono}"
+                           HorizontalOptions="EndAndExpand"
+                           TextColor="Gray" />
+                </HorizontalStackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="#E0E0E0" />
+                <HorizontalStackLayout>
+                    <Label Text="Ciudad "
+                           FontAttributes="Bold"
+                           TextColor="Black" />
+                    <Label Text="{Binding Ciudad}"
+                           HorizontalOptions="EndAndExpand"
+                           TextColor="Gray" />
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
