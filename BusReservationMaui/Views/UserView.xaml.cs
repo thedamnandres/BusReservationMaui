@@ -1,15 +1,18 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using BusReservationMaui.Models;
+using BusReservationMaui.ViewModels;
+using Microsoft.Maui.Controls;
 
-namespace BusReservationMaui.Views;
-
-public partial class UserView : ContentPage
+namespace BusReservationMaui.Views
 {
-    public UserView()
+    public partial class UserView : ContentPage
     {
-        InitializeComponent();
+        public UserView()
+        {
+            InitializeComponent();
+            BindingContext = new UserViewModel(); 
+        }
+
+     
     }
 }
